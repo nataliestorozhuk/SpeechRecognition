@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechRecognition1", "SpeechRecognition1\SpeechRecognition1.csproj", "{FFE80A8D-3C52-4542-A61F-90AD3E3D5C5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemSpeechSynthesis", "SpeechRecognition1\SystemSpeechSynthesis.csproj", "{FFE80A8D-3C52-4542-A61F-90AD3E3D5C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

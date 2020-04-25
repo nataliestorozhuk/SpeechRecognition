@@ -24,7 +24,7 @@ namespace SpeechRecognition1
             volumeValueLabel.Text = _synthesizer.Volume.ToString();
 
 
-            //_synthesizer.SpeakProgress += (s, e) => label2.Text = e.Text;
+            _synthesizer.SpeakProgress += (s, e) => label2.Text = e.Text;
 
         }
 

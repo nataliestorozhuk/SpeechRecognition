@@ -39,6 +39,7 @@
             this.volumeValueLabel = new System.Windows.Forms.Label();
             this.lable3 = new System.Windows.Forms.Label();
             this.volumeTrackBar = new System.Windows.Forms.TrackBar();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.rateTrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.volumeTrackBar)).BeginInit();
             this.SuspendLayout();
@@ -113,7 +114,7 @@
             // volumeValueLabel
             // 
             this.volumeValueLabel.AutoSize = true;
-            this.volumeValueLabel.Location = new System.Drawing.Point(474, 304);
+            this.volumeValueLabel.Location = new System.Drawing.Point(474, 284);
             this.volumeValueLabel.Name = "volumeValueLabel";
             this.volumeValueLabel.Size = new System.Drawing.Size(14, 15);
             this.volumeValueLabel.TabIndex = 9;
@@ -122,7 +123,7 @@
             // lable3
             // 
             this.lable3.AutoSize = true;
-            this.lable3.Location = new System.Drawing.Point(32, 304);
+            this.lable3.Location = new System.Drawing.Point(32, 284);
             this.lable3.Name = "lable3";
             this.lable3.Size = new System.Drawing.Size(49, 15);
             this.lable3.TabIndex = 8;
@@ -131,7 +132,7 @@
             // volumeTrackBar
             // 
             this.volumeTrackBar.LargeChange = 30;
-            this.volumeTrackBar.Location = new System.Drawing.Point(90, 290);
+            this.volumeTrackBar.Location = new System.Drawing.Point(90, 270);
             this.volumeTrackBar.Maximum = 100;
             this.volumeTrackBar.Name = "volumeTrackBar";
             this.volumeTrackBar.Size = new System.Drawing.Size(352, 50);
@@ -139,11 +140,21 @@
             this.volumeTrackBar.TabIndex = 7;
             this.volumeTrackBar.Scroll += new System.EventHandler(this.volumeTrackBar_Scroll);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(32, 327);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 15);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(744, 366);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.volumeValueLabel);
             this.Controls.Add(this.lable3);
             this.Controls.Add(this.volumeTrackBar);
@@ -175,6 +186,7 @@
         private System.Windows.Forms.Label volumeValueLabel;
         private System.Windows.Forms.Label lable3;
         private System.Windows.Forms.TrackBar volumeTrackBar;
+        private System.Windows.Forms.Label label2;
     }
 }
 
